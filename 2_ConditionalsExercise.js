@@ -1,4 +1,3 @@
-
 // EXERCISE 1.
 // First reassign the value of `answer1` so that it has the value of:
 // "num1 is small"
@@ -145,7 +144,7 @@ function exercise7(num7) {
       break;
     default:
       answer7 = "Thanks for that!";
-  }
+  };
 
   return answer7;
 }
@@ -160,10 +159,9 @@ function exercise8(amount1, amount2, minimum, maximum) {
 
   if (amount1 > minimum && amount1 < maximum && amount2 > minimum && amount2 < maximum) {
     answer8 = true;
-  }
-  else {
+  } else {
     answer8 = false;
-  }
+  };
 
   return answer8;
 }
@@ -195,8 +193,7 @@ function exercise9(item) {
     default:
       answer9 = "Thanks for that!";
     }
-  }
-  else {
+  } else {
     answer9 = `Please enter a number, that was a ${typeof item}.`
   }
 
@@ -218,16 +215,13 @@ function exercise10(num10) {
 
   if ((num10 % 15) === 0) {
     answer10 = "Fizz Buzz";
-  }
-  else if ((num10 % 5) === 0) {
+  } else if ((num10 % 5) === 0) {
     answer10 = "Buzz";
-  }
-  else if ((num10 % 3) === 0) {
+  } else if ((num10 % 3) === 0) {
     answer10 = "Fizz";
-  }
-  else {
+  } else {
     answer10 = num10;
-  }
+  };
  
   return answer10;
 }

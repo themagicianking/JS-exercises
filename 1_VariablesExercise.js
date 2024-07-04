@@ -1,4 +1,3 @@
-
 // Exercise 1. Simply declare a variable named 'emptyVariable'
 
 let emptyVariable;
@@ -110,5 +109,5 @@ const myAnswerForExercise21 = true;
 // Exercise 22 What is the value of 2 < 1 < 3
 const myAnswerForExercise22 = true;
 
-// I was familiar with most of this, but needed some help from the chrome 
+// I was familiar with most of this, but needed some help from the chrome
 // console to remember how certain data types are evaluated in Javascript.
